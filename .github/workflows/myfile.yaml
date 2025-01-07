@@ -22,8 +22,8 @@ jobs:
           distribution: 'adopt'
         
       - name: Compile Java program
-        run: javac hw.java
+        run: javac HelloBuild.java
       
       - name: Run Java program
-        run: java hw
+        run: java HelloBuild
 
